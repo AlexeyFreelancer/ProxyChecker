@@ -23,7 +23,7 @@ Some examples:
     $proxyChecker = new ProxyChecker($pingUrl);
     $results = $proxyChecker->checkProxy($proxy);
 
-## Check several proxy
+## Check several proxis
 
     $pingUrl = 'http://yourdomain.com/ProxyChecker/ping.php';
     $proxies = array('xxx.xxx.xxx.xxx:xx', 'xxx.xxx.xxx.xxx:xx');
