@@ -18,7 +18,7 @@ Some examples:
 ## Check one proxy
 
     $pingUrl = 'http://yourdomain.com/ProxyChecker/ping.php';
-    $proxy = 'xxx:xxx:xxx:xx';
+    $proxy = 'xxx.xxx.xxx.xxx:xx';
 
     $proxyChecker = new ProxyChecker($pingUrl);
     $results = $proxyChecker->checkProxy($proxy);
